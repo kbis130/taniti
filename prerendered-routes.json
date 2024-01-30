@@ -1,0 +1,11 @@
+{
+  "routes": [
+    "/entertainment",
+    "/food",
+    "/home",
+    "/lodging",
+    "/questions",
+    "/sightseeing",
+    "/transportation"
+  ]
+}

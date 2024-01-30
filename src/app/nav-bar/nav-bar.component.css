@@ -1,0 +1,54 @@
+.nav-bar {
+    position: fixed;
+    background-color: transparent;
+    top: 15vh; /* Align with the top of the main content */
+    left: 70vw; /* Position to the right of the main content */
+    width: 20vw; /* Adjust the width as necessary */
+    height: 70vh; /* Match the height of the main content */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align the buttons */
+    justify-content: start; /* Adjust as per your design */
+    /* Add additional styles as needed */
+  }
+  
+  /* Navigation buttons */
+  .nav-button {
+    background-color: transparent;
+    border: none;
+    margin: 12px 0;
+    cursor: pointer;
+    width: 70px; /* Example fixed width, adjust as needed */
+    height: 70px; /* For square buttons, match width and height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-button:hover {
+    background-color: #ffda44; /* Change the background color on hover */
+    transform: scale(1.1); /* Slightly increase the size of the button */
+  }
+
+  .button-text {
+    opacity: 0;
+    margin-left: 10px; /* Space between button and text */
+    transition: opacity 0.3s; /* Smooth transition for the opacity */
+    /* Additional styling for the text */
+}
+
+.nav-button-container:hover .button-text {
+    opacity: 1;
+}
+  
+  .nav-button img {
+    width: 150%; /* Adjust based on the actual size you need */
+    height: auto;
+    box-shadow: 0px 0px 10px 0px rgb(255, 196, 1);
+    border-radius: 45px;
+  }
+
+  .clicked-button {
+    border: 6px solid rgb(255, 196, 1); /* Or any color of your choice */
+    border-radius: 5px;
+}

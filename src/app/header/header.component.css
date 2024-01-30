@@ -1,0 +1,30 @@
+
+#islandName {
+  font-family: 'Dancing Script', cursive;
+    color: rgb(0, 1, 78);
+    font-size: 5em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  #islandNameBorder {
+    font-family: 'Dancing Script', cursive;
+    color: rgb(255, 208, 0);
+    font-size: 5em;
+    position: fixed;
+    top: -1px;
+    left: 5px;
+    right: 0;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+

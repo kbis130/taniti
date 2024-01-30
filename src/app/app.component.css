@@ -1,0 +1,11 @@
+@media screen and (max-width: 600px) {
+    .main-content {
+      top: 20vh; /* Increase top spacing for smaller screens if necessary */
+      left: 10vw;
+      width: 80vw;
+    }
+  
+    #islandName, #islandNameBorder {
+      font-size: 3em; /* Adjust font size for smaller screens */
+    }
+  }

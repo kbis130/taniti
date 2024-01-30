@@ -1,0 +1,5 @@
+<div class="main-content">
+  <h2 class="content-title">{{ currentContent.title }}</h2>
+  <p class="content-body">{{ currentContent.body }}</p>
+  <img *ngIf="currentContent.imageUrl" [src]="currentContent.imageUrl" alt="{{ currentContent.title }}">
+</div>

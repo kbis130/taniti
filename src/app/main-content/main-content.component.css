@@ -1,0 +1,36 @@
+.main-content {
+  overflow-y: auto;
+  position: fixed;
+  top: 16vh; /* Adjust this value based on the actual height of your header */
+  left: 29vw;
+  width: 42vw;
+  height: 74vh;
+  background-color: rgb(0, 1, 78);
+  text-align: center;
+  line-height: 50%;
+  box-shadow: 0px 0px 10px 0px rgb(255, 196, 1);
+}
+
+.main-content-text {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.content-title {
+  font-size: 24px;
+  color: #333;
+  /* Add more styling as needed */
+}
+
+.content-body {
+  font-size: 16px;
+  padding: 2px;
+  color: #666;
+  /* Add more styling as needed */
+}
+
+.main-content img {
+  width: 100%; /* Example: make the image responsive */
+  border-radius: 10px; /* Example: round the corners */
+  /* Add more styling as needed */
+}
